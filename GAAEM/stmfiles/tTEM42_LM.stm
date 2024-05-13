@@ -1,0 +1,94 @@
+System Begin
+	 Name = tTEM42 
+	 Type = Time Domain 
+
+	 Transmitter Begin 
+	 	 NumberOfTurns = 1 
+	 	 PeakCurrent = 1 
+	 	 LoopArea = 1 
+	 	 BaseFrequency = 1055 
+	 	 WaveformDigitisingFrequency = 10350000 
+	 	 WaveFormCurrent Begin 
+	 	 	 -6.740000e-04 -0.000000e+00 
+	 	 	 -6.677800e-04 -1.110000e-01 
+	 	 	 -6.548700e-04 -2.830000e-01 
+	 	 	 -6.410200e-04 -4.240000e-01 
+	 	 	 -6.177800e-04 -6.060000e-01 
+	 	 	 -5.891400e-04 -7.590000e-01 
+	 	 	 -5.605000e-04 -8.610000e-01 
+	 	 	 -5.215400e-04 -9.500000e-01 
+	 	 	 -4.924300e-04 -9.910000e-01 
+	 	 	 -4.740000e-04 -1.000000e+00 
+	 	 	 -4.738700e-04 -9.200000e-01 
+	 	 	 -4.737600e-04 -7.550000e-01 
+	 	 	 -4.736300e-04 -5.290000e-01 
+	 	 	 -4.734700e-04 -3.040000e-01 
+	 	 	 -4.733000e-04 -1.690000e-01 
+	 	 	 -4.731200e-04 -8.900000e-02 
+	 	 	 -4.726600e-04 -4.200000e-02 
+	 	 	 -4.720600e-04 -2.900000e-02 
+	 	 	 -4.714000e-04 -0.000000e+00 
+	 	 	 -2.000000e-04 0.000000e+00 
+	 	 	 -1.937800e-04 1.110000e-01 
+	 	 	 -1.808700e-04 2.830000e-01 
+	 	 	 -1.670200e-04 4.240000e-01 
+	 	 	 -1.437800e-04 6.060000e-01 
+	 	 	 -1.151400e-04 7.590000e-01 
+	 	 	 -8.650200e-05 8.610000e-01 
+	 	 	 -4.753500e-05 9.500000e-01 
+	 	 	 -1.842700e-05 9.910000e-01 
+	 	 	 0.000000e+00 1.000000e+00 
+	 	 	 1.328300e-07 9.200000e-01 
+	 	 	 2.440300e-07 7.550000e-01 
+	 	 	 3.737600e-07 5.290000e-01 
+	 	 	 5.343900e-07 3.040000e-01 
+	 	 	 6.950200e-07 1.690000e-01 
+	 	 	 8.803500e-07 8.900000e-02 
+	 	 	 1.343700e-06 4.200000e-02 
+	 	 	 1.943000e-06 2.900000e-02 
+	 	 	 2.600000e-06 0.000000e+00 
+	 	 WaveFormCurrent End 
+
+	 Transmitter End 
+
+	 Receiver Begin 
+	 	 NumberOfWindows = 14 
+	 	 WindowWeightingScheme = AreaUnderCurve 
+	 	 WindowTimes Begin 
+	 	 	 3.680000e-06 5.300000e-06 
+	 	 	 5.680000e-06 7.300000e-06 
+	 	 	 7.680000e-06 9.300000e-06 
+	 	 	 9.680000e-06 1.130000e-05 
+	 	 	 1.168000e-05 1.330000e-05 
+	 	 	 1.368000e-05 1.530000e-05 
+	 	 	 1.568000e-05 1.730000e-05 
+	 	 	 1.768000e-05 1.930000e-05 
+	 	 	 1.968000e-05 2.130000e-05 
+	 	 	 2.168000e-05 2.430000e-05 
+	 	 	 2.468000e-05 2.730000e-05 
+	 	 	 2.768000e-05 3.130000e-05 
+	 	 	 3.168000e-05 3.630000e-05 
+	 	 	 3.668000e-05 4.330000e-05 
+	 	 WindowTimes End 
+
+	 	 LowPassFilter Begin 
+	 	 	 CutOffFrequency = 679000 
+	 	 	 Order = 1 
+	 	 LowPassFilter End 
+
+	 Receiver End 
+
+	 ForwardModelling Begin 
+
+	 	 ModellingLoopRadius = 1.5958 
+	 	 OutputType = dB/dt 
+	 	 SaveDiagnosticFiles = no 
+	 	 XOutputScaling = 0 
+	 	 YOutputScaling = 0 
+	 	 ZOutputScaling = 1 
+	 	 SecondaryFieldNormalisation = none 
+	 	 FrequenciesPerDecade = 12 
+	 	 NumberOfAbsiccaInHankelTransformEvaluation = 280 
+	 ForwardModelling End 
+
+System End 

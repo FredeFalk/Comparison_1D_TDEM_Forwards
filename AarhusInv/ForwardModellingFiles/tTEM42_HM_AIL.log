@@ -1,0 +1,32 @@
+Mod file found: C:\Users\au516205\Desktop\Paper1\ForwardPaper1\Forward\Comparison1DForwards\AarhusInv\ForwardModellingFiles\tTEM42_HM.mod
+Mo2 file found: C:\Users\au516205\Desktop\Paper1\ForwardPaper1\Forward\Comparison1DForwards\AarhusInv\ForwardModellingFiles\tTEM42_HM.mod
+Path: C:\Users\au516205\Desktop\Paper1\ForwardPaper1\Forward\Comparison1DForwards\AarhusInv\ForwardModellingFiles\
+Reading mod file...
+DataFileNames.Count > 4
+Modfile ok!
+========== AarhusInv License ==============
+Text0=102 - 1D TEM - Forward modeling & inversion
+Text1=104 - 2D TEM - Forward modeling & inversion
+Text2=112 - 1D FEM - Forward modeling & inversion
+Text3=121 - 1D DC - Forward modeling & inversion
+Text4=122 - 2D DC - Forward modeling & inversion
+Text5=164 - 1D Airborne (TEM) - Forward modeling & inversion
+Text6=191 - AarhusInv standalone
+Days offline before update is required=30
+Last connection=18-04-2024
+Licence check sum=d19def2785f9422333cd6eacd69719d3
+License Code=V9Uw7trA
+License expires=22-06-2024
+License Number=3682
+Machine GUID={7F0637A5-AB29-42C7-88D0-4DCE96735590}
+Machine ID=4179d3464c7450140978d080b40c252f
+Number of polygons=0
+Product=AarhusInv
+Update expires=22-06-2024
+=== End of AarhusInv License ==============
+License found in reg dir: AarhusInv
+AarhusInv license number: 3682
+License (AarhusInv) is OK!
+NModules: 7
+NModulesNew: 7
+Saved lic
