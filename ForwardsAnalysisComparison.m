@@ -1,6 +1,6 @@
 %% ANALYSIS FOR "Comparison of 1D TDEM Forward Functions"
 
-% This MATLAB code produces the results for Falk et al. (Submitted to Computers & Geosciences 2024)
+% This MATLAB code produces the results for Falk et al. (Submitted to Applied Computing & Geosciences 2024)
 % The code relies on proper installation of the three forward algorithms. We have
 % segmented this code such that you can run the tests that are possible for
 % you. Below you'll find some points with respect to the installation of
